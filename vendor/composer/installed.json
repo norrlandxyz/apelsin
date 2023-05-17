@@ -1,0 +1,60 @@
+{
+    "packages": [
+        {
+            "name": "rhilip/bencode",
+            "version": "v2.3.2",
+            "version_normalized": "2.3.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Rhilip/Bencode.git",
+                "reference": "e6b90a062b8d6f4f44aeb4da4c2bc35de19dba1f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Rhilip/Bencode/zipball/e6b90a062b8d6f4f44aeb4da4c2bc35de19dba1f",
+                "reference": "e6b90a062b8d6f4f44aeb4da4c2bc35de19dba1f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.3|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "suggest": {
+                "php-64bit": "Running 64 bit is recommended to prevent integer overflow"
+            },
+            "time": "2022-11-01T10:28:34+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Rhilip\\Bencode\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Rhilip",
+                    "email": "rhilipruan@gmail.com"
+                }
+            ],
+            "description": "A pure and simple PHP library for encoding and decoding Bencode data",
+            "keywords": [
+                "bencode",
+                "bittorrent",
+                "torrent"
+            ],
+            "support": {
+                "issues": "https://github.com/Rhilip/Bencode/issues",
+                "source": "https://github.com/Rhilip/Bencode/tree/v2.3.2"
+            },
+            "install-path": "../rhilip/bencode"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
